@@ -10,9 +10,11 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
+        android:textSize="24sp"
+android:textColor="@android:color/white"
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
-        android:text="You have symptoms of disease"
+        android:text="You have symptoms of\n disease"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,6 +22,8 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+
         android:layout_height="wrap_content"
         android:layout_marginStart="33dp"
         android:layout_marginTop="225dp"
