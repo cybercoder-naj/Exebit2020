@@ -2,73 +2,30 @@
     <string name="app_name">रोग Finder</string>
     <string name="next">Next</string>
     <string-array name="anxeity_q" tools:ignore="ExtraTranslation">
-        <item>Have you been feeling restless like you are unable to sit in one place?
-</item>
-        <item>
-            Have you been concerned about more than one thing?
-        </item>
-        <item>
-            Have you been agitated or tensed?
-        </item>
-        <item>
-            Have you had trouble staying calm?
-        </item>
-        <item>
-            Have you struggled to control feelings of anxiety, agitation or fear?
-        </item>
-        <item>
-            Have you felt ill tempered or moody?
-        </item>
-        <item>
-            Have you panicked about things that might happen to you or the ones closed to you?
-        </item>
+        <item>Have you been feeling restless like you are unable to sit in one place?</item>
+        <item>Have you been concerned about more than one thing?</item>
+        <item>Have you been agitated or tensed?</item>
+        <item>Have you had trouble staying calm?</item>
+        <item>Have you struggled to control feelings of anxiety, agitation or fear?</item>
+        <item>Have you felt ill tempered or moody?</item>
+        <item>Have you panicked about things that might happen to you or the ones closed to you?</item>
         <item>Have you been having any irrational fears, from certain things?</item>
     </string-array>
     <string-array name="schitz_q" tools:ignore="ExtraTranslation">
-        <item>
-Other people unable to see and hear things that I can
-        </item>
-        <item>
-Sometimes I are unable to speak
-        </item>
-
-        <item>
-It is tough for me to organize and start working on anything
-        </item>
-
-        <item>
-I believe i have powers that others don\'t
-        </item>
-        <item>
-Sometimes words don\'t come out as I intent
-        </item>
-        <item>
-I can hear conversations that others can\'t
-        </item>
-        <item>
-I can hear other people taking about me
-        </item>
-        <item>
-I feel people are going to harm me
-        </item>
-        <item>
-I sometimes completely lack emotions
-        </item>
-        <item>
-I believe that someone can take charge of my body completely
-        </item>
-        <item>
-Sometimes i am unable to tell if i am having hallucinations
-        </item>
-        <item>
-I can tell whats going on before it happens
-        </item>
-        <item>
-I believe that i can read other people\'s minds
-        </item>
-        <item>
-Due to these things i am unable to perform daily functions
-        </item>
+        <item>Other people unable to see and hear things that I can</item>
+        <item>Sometimes I are unable to speak</item>
+        <item>It is tough for me to organize and start working on anything</item>
+        <item>I believe i have powers that others don't</item>
+        <item>Sometimes words don't come out as i intent</item>
+        <item>I can hear conversations that others can't</item>
+        <item>I can hear other people taking about me</item>
+        <item>I feel people are going to harm me</item>
+        <item>I sometimes completely lack emotions</item>
+        <item>I believe that someone can take charge of my body completely</item>
+        <item>Sometimes i am unable to tell if i am having hallucinations</item>
+        <item>I can tell whats going on before it happens</item>
+        <item>I believe that i can read other people's minds</item>
+        <item>Due to these things i am unable to perform daily functions</item>
 
 
     </string-array>
@@ -77,7 +34,7 @@ Due to these things i am unable to perform daily functions
         <item>Have you been having memories of trauma come at unwanted moments?</item>
         <item>Have you been avoiding people that make you think about the trauma ?</item>
         <item>Have you been getting rushes on anger?</item>
-        <item>Have you been feeling like \'you are on the edge\' when people are around ?</item>
+        <item>Have you been feeling like 'you are on the edge' when people are around ?</item>
         <item> Have you been unable to connect with your emotions?</item>
         <item>Have you been avoiding thinking about the trauma or the way it makes you feel?</item>
         <item>Have you been experiencing racing pulse, excessive sweating or shaking while remembering the trauma?</item>
@@ -88,31 +45,14 @@ Due to these things i am unable to perform daily functions
         <item>Have you been struggling to get sleep ?</item>
     </string-array>
     <string-array name="depression_q" tools:ignore="ExtraTranslation">
-        <item>
-Have you been  having the feeling that you will never find joy in life?</item>
-        <item>
-Have you been having problems focusing on daily task?        </item>
-        <item>
-Have you been feeling lethargic or have no energy?
-        </item>
-        <item>
-Have you been eating too little for the past few weeks?        </item>
-        <item>
-Have you been moving less than usual?        </item>
-        <item>
-Have you been struggling to get sleep ?
-        </item>
-        <item>
-Have you been overly harsh on yourself?
-
-        </item>
-        <item>
-Have you been feeling low?
-
-        </item>
-        <item>
-Have you been feeling suicidal or wanting to harm yourself?
-
-        </item>
+        <item>Have you been  having the feeling that you will never find joy in life?</item>
+        <item>Have you been having problems focusing on daily task? </item>
+        <item>Have you been feeling lethargic or have no energy?</item>
+        <item>Have you been eating too little for the past few weeks?  </item>
+        <item>Have you been moving less than usual? </item>
+        <item>Have you been struggling to get sleep ?</item>
+        <item>Have you been overly harsh on yourself?</item>
+        <item>Have you been feeling low?</item>
+        <item>Have you been feeling suicidal or wanting to harm yourself?</item>
     </string-array>
 </resources>
