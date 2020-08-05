@@ -12,6 +12,7 @@ class DiseaseActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDiseaseBinding
     private var qNumber = 0
     private lateinit var questions: Array<out String>
+    private var score = 0
 
     companion object {
         private const val PARAM_1 = "disease"
@@ -28,17 +29,25 @@ class DiseaseActivity : AppCompatActivity() {
 
         val disease = intent.getStringExtra(PARAM_1)
 
-        questions = resources.getStringArray(when(disease) {
-            "Depression" -> R.array.depression_q
-            "PSTD" -> R.array.ptsd_q
-            "Scitz" -> R.array.schitz_q
-            "Anxiety" -> R.array.anxeity_q
-            else -> R.array.depression_q
-        })
+        questions = resources.getStringArray(
+            when (disease) {
+                "Depression" -> R.array.depression_q
+                "PSTD" -> R.array.ptsd_q
+                "Scitz" -> R.array.schitz_q
+                "Anxiety" -> R.array.anxeity_q
+                else -> R.array.depression_q
+            }
+        )
 
         askQuestion()
         binding.btnSubmit.setOnClickListener {
-            
+            score += binding.seekBar2.progress + 1
+            qNumber++
+            if (qNumber < questions.size)
+                askQuestion()
+            else {
+                // TODO send score to ContactActivity.kt
+            }
         }
     }
 
