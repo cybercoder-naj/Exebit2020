@@ -2,7 +2,7 @@
     <string name="app_name">रोग Finder</string>
     <string name="next">Next</string>
     <string-array name="Anxiety Questions" tools:ignore="ExtraTranslation">
-        <item >Have you been feeling restless like you are unable to sit in one place?
+        <item>Have you been feeling restless like you are unable to sit in one place?
 </item>
         <item>
             Have you been concerned about more than one thing?
@@ -24,9 +24,112 @@
         </item>
         <item>Have you been having any irrational fears, from certain things?</item>
     </string-array>
+    <string-array name="Schitz Questions" tools:ignore="ExtraTranslation">
+        <item>
+Other people unable to see and hear things that I can
+        </item>
+        <item>
+Sometimes I are unable to speak
+        </item>
 
+        <item>
+It is tough for me to organize and start working on anything
+        </item>
+
+        <item>
+I believe i have powers that others don't
+        </item>
+        <item>
+Sometimes words don't come out as i intent
+        </item>
+        <item>
+I can hear conversations that others can't
+        </item>
+        <item>
+I can hear other people taking about me
+        </item>
+        <item>
+I feel people are going to harm me
+        </item>
+        <item>
+I sometimes completely lack emotions
+        </item>
+        <item>
+I believe that someone can take charge of my body completely
+        </item>
+        <item>
+Sometimes i am unable to tell if i am having hallucinations
+        </item>
+        <item>
+I can tell whats going on before it happens
+        </item>
+        <item>
+I believe that i can read other people's minds
+        </item>
+        <item>
+Due to these things i am unable to perform daily functions
+        </item>
+
+
+    </string-array>
+    <string-array name="PTSD Questions" tools:ignore="ExtraTranslation">
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+        <item>
+Have you been  ?
+        </item>
+    </string-array>
     <string-array name="Depression Questions" tools:ignore="ExtraTranslation">
-        <item >
+        <item>
 Have you been  having the feeling that you will never find joy in life?</item>
         <item>
 Have you been having problems focusing on daily task?        </item>
