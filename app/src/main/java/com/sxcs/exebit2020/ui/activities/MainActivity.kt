@@ -93,7 +93,12 @@ class MainActivity : AppCompatActivity() {
             })
 
             binding.btnNext.setOnClickListener {
-                viewPagerOnBoarding.currentItem = currentPage + 1
+                if (btnNext.text == "Next")
+                    viewPagerOnBoarding.currentItem = currentPage + 1
+                else
+                    QuestionsActivity.getIntent(this@MainActivity).also {
+                        startActivity(it)
+                    }
             }
             binding.btnBack.setOnClickListener {
                 viewPagerOnBoarding.currentItem = currentPage - 1
