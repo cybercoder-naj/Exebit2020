@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">रोग Finder</string>
     <string name="next">Next</string>
-    <string-array name="anxiety_questions" tools:ignore="ExtraTranslation">
+    <string-array name="anxeity_q" tools:ignore="ExtraTranslation">
         <item>Have you been feeling restless like you are unable to sit in one place?
 </item>
         <item>
@@ -24,7 +24,7 @@
         </item>
         <item>Have you been having any irrational fears, from certain things?</item>
     </string-array>
-    <string-array name="schitz_questions" tools:ignore="ExtraTranslation">
+    <string-array name="schitz_q" tools:ignore="ExtraTranslation">
         <item>
 Other people unable to see and hear things that I can
         </item>
@@ -72,72 +72,47 @@ Due to these things i am unable to perform daily functions
 
 
     </string-array>
-    <string-array name="pstd_questions" tools:ignore="ExtraTranslation">
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-        <item>
-Have you been  ?
-        </item>
-    </string-array>
-
-    <string-array name="depression_questions" tools:ignore="ExtraTranslation">
-        <item>Have you been having the feeling that you will never find joy in life?</item>
-        <item>Have you been having problems focusing on daily task?</item>
-        <item>Have you been feeling lethargic or have no energy?</item>
-        <item>Have you been eating too little for the past few weeks?</item>
-        <item>Have you been moving less than usual?</item>
+    <string-array name="ptsd_q" tools:ignore="ExtraTranslation">
+        <item>Have you been having trouble focusing on reading or watching television?</item>
+        <item>Have you been having memories of trauma come at unwanted moments?</item>
+        <item>Have you been avoiding people that make you think about the trauma ?</item>
+        <item>Have you been getting rushes on anger?</item>
+        <item>Have you been feeling like 'you are on the edge' when people are around ?</item>
+        <item> Have you been unable to connect with your emotions?</item>
+        <item>Have you been avoiding thinking about the trauma or the way it makes you feel?</item>
+        <item>Have you been experiencing racing pulse, excessive sweating or shaking while remembering the trauma?</item>
+        <item>Have you been on hyper alert when people are around you?</item>
+        <item>Have you been having memories of trauma feel so vivid that it feels like its happening again?</item>
+        <item>Have you been feeling detached from your friends and family?</item>
+        <item>Have you been having thoughts of memories come to you while you sleep ?</item>
         <item>Have you been struggling to get sleep ?</item>
-        <item>Have you been overly harsh on yourself?</item>
-        <item>Have you been feeling low?</item>
-        <item>Have you been feeling suicidal or wanting to harm yourself?</item>
+    </string-array>
+    <string-array name="depression_q" tools:ignore="ExtraTranslation">
+        <item>
+Have you been  having the feeling that you will never find joy in life?</item>
+        <item>
+Have you been having problems focusing on daily task?        </item>
+        <item>
+Have you been feeling lethargic or have no energy?
+        </item>
+        <item>
+Have you been eating too little for the past few weeks?        </item>
+        <item>
+Have you been moving less than usual?        </item>
+        <item>
+Have you been struggling to get sleep ?
+        </item>
+        <item>
+Have you been overly harsh on yourself?
+
+        </item>
+        <item>
+Have you been feeling low?
+
+        </item>
+        <item>
+Have you been feeling suicidal or wanting to harm yourself?
+
+        </item>
     </string-array>
 </resources>
