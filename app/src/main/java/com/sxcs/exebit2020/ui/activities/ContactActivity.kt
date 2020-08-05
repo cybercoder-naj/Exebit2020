@@ -34,10 +34,11 @@ class ContactActivity : AppCompatActivity() {
         when {
             percentage < 45.0 -> {
                 binding.textView.text = "You might have weak symptoms of $disease - $percentage%"
+                binding.textView4.text = "Do not worry now! Come back if you still feel symptoms!"
             }
             percentage in 45.0..75.0 -> {
                 binding.textView.text = "You might have moderate symptoms of $disease - $percentage%.\n\nWe recommend you contact one of our psychiatrist."
-                binding.textView4.text = "Name: Dr."
+                binding.textView4.text = "Name: Dr. Raman\n\nPhone Number : +919876543210\n\nAddress: 1C, Doctors Road, Kolkata - 700 001\n\nEmail: doctor.raman@gmail.com"
             }
             percentage in 75.0..100.0 -> {
                 binding.textView.text = "You might have symptoms of $disease - $percentage%.\n\nWe recommend you contact one of our psychiatrist."
