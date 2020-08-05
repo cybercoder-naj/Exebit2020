@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         if(isFirstTime()) {
-            // TODO Add the intro images and commit.
             val list = arrayListOf(
                 OnBoardingItem(
                     "Welcome to ${getString(R.string.app_name)}",
@@ -99,10 +98,12 @@ class MainActivity : AppCompatActivity() {
                 binding.btnNext.setOnClickListener {
                     if (btnNext.text == "Next")
                         viewPagerOnBoarding.currentItem = currentPage + 1
-                    else
+                    else {
                         QuestionnaireActivity.getIntent(this@MainActivity).also {
                             startActivity(it)
                         }
+                        setFirstTime()
+                    }
                 }
                 binding.btnBack.setOnClickListener {
                     viewPagerOnBoarding.currentItem = currentPage - 1
@@ -134,12 +135,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun isFirstTime(): Boolean {
         val prefs = getSharedPreferences("sharedPrefs", Context.MODE_PRIVATE)
-        return if (prefs.getBoolean("isFirstTime", true)) {
-            prefs.edit()
-                .putBoolean("isFirstTime", false)
-                .apply()
-            true
-        } else
-            false
+        return prefs.getBoolean("isFirstTime", true)
+    }
+
+    private fun setFirstTime() {
+        val prefs = getSharedPreferences("sharedPrefs", Context.MODE_PRIVATE)
+        prefs.edit()
+            .putBoolean("isFirstTime", false)
+            .apply()
     }
 }
