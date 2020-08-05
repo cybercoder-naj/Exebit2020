@@ -3,10 +3,12 @@ package com.sxcs.exebit2020.ui.activities
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.sxcs.exebit2020.R
 import com.sxcs.exebit2020.databinding.ActivityQuestionsBinding
 
-class QuestionsActivity : AppCompatActivity() {
+class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityQuestionsBinding
 
@@ -19,6 +21,22 @@ class QuestionsActivity : AppCompatActivity() {
         binding = ActivityQuestionsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        with(binding) {
+            cardViewMental.setOnClickListener(this@QuestionsActivity)
+            cardViewPhysical.setOnClickListener(this@QuestionsActivity)
+        }
+    }
 
+    override fun onClick(v: View?) {
+        v?.let {
+            var action =
+                when (it.id) {
+                    R.id.cardView_mental -> "Mental"
+                    R.id.cardView_physical -> "Physical"
+                    else -> ""
+                }
+
+
+        }
     }
 }
