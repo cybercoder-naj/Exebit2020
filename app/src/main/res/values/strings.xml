@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">रोग Finder</string>
     <string name="next">Next</string>
-    <string-array name="Anxiety Questions" tools:ignore="ExtraTranslation">
+    <string-array name="anxiety_questions" tools:ignore="ExtraTranslation">
         <item>Have you been feeling restless like you are unable to sit in one place?
 </item>
         <item>
@@ -24,7 +24,7 @@
         </item>
         <item>Have you been having any irrational fears, from certain things?</item>
     </string-array>
-    <string-array name="Schitz Questions" tools:ignore="ExtraTranslation">
+    <string-array name="schitz_questions" tools:ignore="ExtraTranslation">
         <item>
 Other people unable to see and hear things that I can
         </item>
@@ -72,7 +72,7 @@ Due to these things i am unable to perform daily functions
 
 
     </string-array>
-    <string-array name="PTSD Questions" tools:ignore="ExtraTranslation">
+    <string-array name="pstd_questions" tools:ignore="ExtraTranslation">
         <item>
 Have you been  ?
         </item>
@@ -128,32 +128,16 @@ Have you been  ?
 Have you been  ?
         </item>
     </string-array>
-    <string-array name="Depression Questions" tools:ignore="ExtraTranslation">
-        <item>
-Have you been  having the feeling that you will never find joy in life?</item>
-        <item>
-Have you been having problems focusing on daily task?        </item>
-        <item>
-Have you been feeling lethargic or have no energy?
-        </item>
-        <item>
-Have you been eating too little for the past few weeks?        </item>
-        <item>
-Have you been moving less than usual?        </item>
-        <item>
-Have you been struggling to get sleep ?
-        </item>
-        <item>
-Have you been overly harsh on yourself?
 
-        </item>
-        <item>
-Have you been feeling low?
-
-        </item>
-        <item>
-Have you been feeling suicidal or wanting to harm yourself?
-
-        </item>
+    <string-array name="depression_questions" tools:ignore="ExtraTranslation">
+        <item>Have you been having the feeling that you will never find joy in life?</item>
+        <item>Have you been having problems focusing on daily task?</item>
+        <item>Have you been feeling lethargic or have no energy?</item>
+        <item>Have you been eating too little for the past few weeks?</item>
+        <item>Have you been moving less than usual?</item>
+        <item>Have you been struggling to get sleep ?</item>
+        <item>Have you been overly harsh on yourself?</item>
+        <item>Have you been feeling low?</item>
+        <item>Have you been feeling suicidal or wanting to harm yourself?</item>
     </string-array>
 </resources>

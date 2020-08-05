@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.sxcs.exebit2020.databinding.ActivityQuestionnaireBinding
 import kotlinx.android.synthetic.main.layout_onboarding.*
+import kotlin.system.measureNanoTime
 
 class QuestionnaireActivity : AppCompatActivity() {
 
@@ -14,12 +15,8 @@ class QuestionnaireActivity : AppCompatActivity() {
     private var questionNumber = 1
 
     companion object {
-        private const val PARAM_1 = "action"
-
-        fun getIntent(context: Context, action: String) =
-            Intent(context, QuestionnaireActivity::class.java).apply {
-                putExtra(PARAM_1, action)
-            }
+        fun getIntent(context: Context) =
+            Intent(context, QuestionnaireActivity::class.java)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,16 +24,7 @@ class QuestionnaireActivity : AppCompatActivity() {
         binding = ActivityQuestionnaireBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val action = intent.getStringExtra(PARAM_1)
-
-        if (action == "Mental")
-            mentalQuestions()
-        else if (action == "Physical")
-            physicalQuestions()
-    }
-
-    private fun physicalQuestions() {
-
+        mentalQuestions()
     }
 
     private fun mentalQuestions() {
@@ -68,7 +56,9 @@ class QuestionnaireActivity : AppCompatActivity() {
                             disease = "Anxiety"
                     }
                     if (disease != "None") {
-                        
+                        DiseaseActivity.getIntent(this@QuestionnaireActivity, disease).also {
+                            startActivity(it)
+                        }
                     }
                 }
                 setQuestions()

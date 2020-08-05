@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
                 if (btnNext.text == "Next")
                     viewPagerOnBoarding.currentItem = currentPage + 1
                 else
-                    QuestionsActivity.getIntent(this@MainActivity).also {
+                    QuestionnaireActivity.getIntent(this@MainActivity).also {
                         startActivity(it)
                     }
             }
