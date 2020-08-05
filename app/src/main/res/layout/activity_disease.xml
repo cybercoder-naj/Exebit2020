@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
         android:text="Question 1"
-        android:textColor="@color/colorPrimaryDark"
         android:textSize="16sp"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,6 +23,7 @@
     <TextView
         android:id="@+id/tvQuestion"
         android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:text="Question goes here"
@@ -34,10 +35,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
-        android:text="How often have you experienced this in the past 2 weeks ?"
+        android:layout_marginTop="368dp"
+        android:text="How often have you experienced \n this in the past  2 weeks ?"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintHorizontal_bias="0.286"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvIntro" />
 
@@ -73,6 +75,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="Never"
+        android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="@+id/seekBar2"
         app:layout_constraintTop_toBottomOf="@+id/seekBar2" />
 
