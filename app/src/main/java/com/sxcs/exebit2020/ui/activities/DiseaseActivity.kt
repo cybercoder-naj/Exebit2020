@@ -45,8 +45,9 @@ class DiseaseActivity : AppCompatActivity() {
             qNumber++
             if (qNumber < questions.size)
                 askQuestion()
-            else
-
+            else {
+                // TODO send score to ContactActivity.kt
+            }
         }
     }
 
