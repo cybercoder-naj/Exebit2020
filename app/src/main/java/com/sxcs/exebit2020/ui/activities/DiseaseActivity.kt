@@ -46,7 +46,13 @@ class DiseaseActivity : AppCompatActivity() {
             if (qNumber < questions.size)
                 askQuestion()
             else {
-                // TODO send score to ContactActivity.kt
+                ContactActivity.getIntent(
+                    this,
+                    score.toDouble() / (qNumber * 5.0) * 100.0,
+                    disease ?: ""
+                ).also {
+                    startActivity(it)
+                }
             }
         }
     }
