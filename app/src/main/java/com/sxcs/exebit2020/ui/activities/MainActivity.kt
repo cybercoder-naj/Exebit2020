@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 OnBoardingItem(
                     "Then, we will tell you if you have symptoms of Depression, PTSD, Schizophrenia or Anxiety.",
                     "In case we believe that you have those, we will recommend a specialist, you may see.",
-                    R.drawable.survey
+                    R.drawable.doctor
                 )
             )
 
