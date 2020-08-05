@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/tvIntro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="137dp"
-        android:text="Answer these questions with reference to your experiences in the past 2 weeks "
+        android:textSize="16sp"
+
+        android:layout_marginTop="136dp"
+        android:text="Answer these questions with reference to \nyour experiences in the past 2 weeks "
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,42 +24,51 @@
         android:id="@+id/tvQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
         android:text="Question goes here"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvIntro" />
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="73dp"
-        android:layout_marginTop="69dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvQuestion">
-
-        <RadioButton
-            android:id="@+id/radYes"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Yes" />
-
-        <RadioButton
-            android:id="@+id/radNo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="No" />
-    </RadioGroup>
 
     <Button
         android:id="@+id/btnSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="235dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="72dp"
         android:text="Submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvIntro" />
+
+    <RadioButton
+        android:id="@+id/radYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:textColor="@android:color/white"
+
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuestion">
+
+        <RadioButton
+            android:id="@+id/radNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </RadioGroup>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

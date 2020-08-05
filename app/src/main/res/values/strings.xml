@@ -1,3 +1,5 @@
+
+
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">रोग Finder</string>
     <string name="next">Next</string>
@@ -54,6 +56,6 @@
         <item>Have you been overly harsh on yourself?</item>
         <item>Have you been feeling low?</item>
         <item>Have you been feeling suicidal or wanting to harm yourself?</item>
-   
+
     </string-array>
 </resources>

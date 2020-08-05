@@ -30,12 +30,17 @@ class MainActivity : AppCompatActivity() {
                 OnBoardingItem(
                     "Welcome to ${getString(R.string.app_name)}",
                     "This mobile application will help you identify the problems you might be facing during the COVID - 19 pandemic.",
-                    R.drawable.ic_launcher_foreground
+                    R.drawable.logo
                 ),
                 OnBoardingItem(
                     "Firstly, you need to answer a few of our questions.",
                     "This is going to be a short survey.",
-                    R.drawable.ic_launcher_foreground
+                    R.drawable.survey
+                ),
+                OnBoardingItem(
+                    "Then, we will tell you if you have symptoms of Depression, PTSD, Schizophrenia or Anxiety.",
+                    "In case we believe that you have those, we will recommend a specialist, you may see.",
+                    R.drawable.survey
                 )
             )
 
