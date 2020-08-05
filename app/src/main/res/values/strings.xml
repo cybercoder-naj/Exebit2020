@@ -1,10 +1,27 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">रोग Finder</string>
     <string name="next">Next</string>
-    <string name="title_activity_questionaire">QuestionaireActivity</string>
-    <!--
-    This string is used for square devices and overridden by hello_world in
-    values-round/strings.xml for round devices.
-    -->
-    <string name="hello_world">Hello Square World!</string>
+    <string-array name="Anxiety Questions" tools:ignore="ExtraTranslation">
+        <item >For the past two weeks are you feeling restless like you are unable to sit in one place?
+</item>
+        <item>
+            Have you been concerned about more than one thing for the past 2 weeks ?
+        </item>
+        <item>
+            Have you been agitated or tensed from  the past 2 weeks?
+        </item>
+        <item>
+            For the past 2 weeks have you had trouble staying calm?
+        </item>
+        <item>
+            Have you struggled to control feelings of anxiety, agitation or fear, in the past 2 weeks?
+        </item>
+        <item>
+            Have you felt ill tempered or moody in the past 2 weeks?
+        </item>
+        <item>
+            Have you panicked about things that might happen to you or the ones closed to you in the past 2 weeks?
+        </item>
+        <item>Have you been having any irrational fears, from certain things for the past 2 weeks?</item>
+    </string-array>
 </resources>
