@@ -1,14 +1,14 @@
-package com.sxcs.exebit2020
+package com.sxcs.exebit2020.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.sxcs.exebit2020.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Hey! Testing
-        // test2
+
     }
 }
