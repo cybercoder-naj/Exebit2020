@@ -1,9 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">रोग Finder</string>
     <string name="next">Next</string>
-    <string-array name="Anxiety Questions" tools:ignore="ExtraTranslation">
-        <item >For the past two weeks are you feeling restless like you are unable to sit in one place?
-</item>
+    <string-array name="anxiety_questions" tools:ignore="ExtraTranslation">
+        <item>For the past two weeks are you feeling restless like you are unable to sit in one place?</item>
         <item>
             Have you been concerned about more than one thing for the past 2 weeks ?
         </item>

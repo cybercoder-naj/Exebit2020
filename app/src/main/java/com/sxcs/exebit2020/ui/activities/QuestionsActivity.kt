@@ -28,15 +28,17 @@ class QuestionsActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        v?.let {
-            var action =
-                when (it.id) {
+        v?.let { view ->
+            val action =
+                when (view.id) {
                     R.id.cardView_mental -> "Mental"
                     R.id.cardView_physical -> "Physical"
                     else -> ""
                 }
 
-
+            QuestionnaireActivity.getIntent(this, action).also {
+                startActivity(it)
+            }
         }
     }
 }
