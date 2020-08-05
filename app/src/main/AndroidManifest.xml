@@ -17,8 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activities.QuestionsActivity" />
         <activity android:name=".ui.activities.QuestionnaireActivity" />
+        <activity android:name=".ui.activities.DiseaseActivity" />
     </application>
 
 </manifest>
